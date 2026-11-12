@@ -1,10 +1,10 @@
+import os
 # =========================
 # НАСТРОЙКИ FISHL SHOP BOT
 # =========================
 
 # Токен от @BotFather.
-BOT_TOKEN = "8823534172:AAFUoWsemHHltViIcFP7tR8qPL5_1pG8mE8"
-
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 # Username менеджера без @.
 MANAGER_USERNAME = "devarapq"
 
